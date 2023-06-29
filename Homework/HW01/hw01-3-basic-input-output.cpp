@@ -15,13 +15,13 @@
 */
 #include <stdio.h>
 int main(){
-    char Name[50];
+    char FName[50];
+    char LName[50];
     printf("Enter you First Name: ");
-    scanf("%s",Name);
+    scanf("%s",FName);
     printf("Enter you Last Name: ");
-    scanf("%s",Name);
-    printf("Fname = %s\n",Name);
-    printf("Lname = %ss",Name);
+    scanf("%s",LName);
+    printf("%s  %ss ",FName,LName);
     printf("TC, RMUTL, Chiang Mai, Thailand");
     return 0;
 }
